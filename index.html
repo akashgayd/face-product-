@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bauty product</title>
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oleo+Script:wght@400;700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <!-- bootstrap nav bar -->
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand img-logo" href="#">Leone'</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+
+              <button class="my_btn" id="login" onclick="loginPage()">login/</button><button class="my_btn" id="signup" onclick="signupPage()">sing up</button>
+              </span> <i class="fa-solid fa-user" id="userFont"></i>
+            </div>
+          </nav>
+
+          <div class="main_cont">
+
+  <!-- login input -->
+
+            <form class="login" id="formLogin">
+
+                <h1>login</h1> 
+              
+                <input type="text" placeholder="username" id="userName">
+
+              
+                <input type="email" placeholder="enter your email" id="userEmail">
+              
+                <input type="password" placeholder="enter a password" id="password">
+
+               
+             
+                <br>
+                <button class="btn btn-success" id="submit" onclick="removeClass()">submit</button>
+
+
+                <!-- sing up imput -->
+            </form>
+            <form class="login" id="formSing">
+                <h1>singUp</h1>
+                <input type="text" placeholder="enter your full name" id="sName">
+                <input type="email" placeholder="enter your email" id="sEmail">
+                <input type="number" id="number" placeholder="number">
+
+                <input type="password" placeholder="enter a password" id="sPassword">
+<div class="wrng-div">
+                <p id="warning" class="wrng"> password is:  <span id="nextWar"> </span></p>
+              </div>    
+                <input type="password" placeholder="confirm the password">
+               
+                <br>
+
+                <button class=" btn btn-info" id="explore" onclick="removeSub()">explore</button>
+            </form>
+
+
+
+            <div class="heading-cont">
+
+             <h1>moisturize your <br>
+               hands daily</h1>
+
+
+
+             <div class="bg_img">
+              <img src="aseets/homeimg.jpg" height="100%" width="100%">
+            </div>
+            
+            </div>
+            
+          </div>
+       
+   
+
+          <div class="multi-product" id="multi-product">
+
+            <div class="product-1-dis" id="product-1">
+ 
+              <p>Prime Members Can Enjoy Unlimited Free Shipping,
+                 Early Access To Lightning Deals and More. Enhance Your Shopping Experience 
+                  With Our Personalised Recommendations. Best Deals. Low Prices. 
+                  Top Brands. Great Offers. Huge Selection. Easy & Fast Delivery.</p><img src="aseets/h2-polish-02-list-img.jpg">
+
+            </div>
+            <div class="product-2-dis" id="product-2">
+
+              <img src="aseets/h2-polish-03-list-img (1).jpg">
+              <p>deal characteristics of a nail polish 1 It should have proper viscosity wetting and flow properties. 2 It should have uniform colour. 3 It should have good gloss and good adhesive properties. 4 It should have sufficient flexibility so that it does not crack or become brittle.</p>
+            </div>
+           
+            
+          </div>
+      <div class="nail-product" id="productNail">
+
+        <section class="img1" id="img1">
+          <img src="aseets/h2-Shop-List-img-product-01.jpg">
+          <div> <p>face wash premium</p>
+          <button class="btn btn-dark" onclick="firstBigInt()">buy now</button></div>
+        </section>
+        <section class="img1" id="img2">
+
+
+          <img src="aseets/h2-polish-03-list-img (1).jpg">
+          <div> <p>green shine premium</p>
+          <button class="btn btn-dark" onclick="secongFaceBtn()">buy now</button></div>
+        </section> 
+        <section class="img1" id="img3">
+
+          <img src="aseets/h2-portfolio-list-img-1.jpg">
+          <div> <p>yellow shine premium</p>
+          <button class="btn btn-dark" onclick="thirdBtnFun()">buy now</button></div>
+
+        </section>
+        <section class="img1" id="img4">
+
+          <img src="aseets/Product-Nourshing-cream-Main-img.jpg">
+          <div> <p>face cream premium</p>
+          <button class="btn btn-dark" onclick="forthBtnFun()">buy now</button></div>
+        </section>
+
+
+        <section class="img1" id="img5">
+           <img src="aseets/Home-2-product-list-Shop-Single-Main-img-05.jpg">
+          <div> <p>Drop premium</p>
+          <button class="btn btn-dark" onclick="fiveBtnFun()">buy now</button></div>
+
+
+
+
+        </section>
+
+        <div class="product-discription1" id="pr-dis">
+
+          
+          <section class="img-section"><img src="aseets/h2-Shop-List-img-product-01.jpg" width="100%" height="100%" id="wash-img"></section>
+
+
+          <section class="btn-section">
+
+<button><img src="" width="100%" height="100%" id="firstBtn"></button>
+<button><img src="" width="100%" height="100%" id="secondBtn"></button>
+
+<button> <img src="" width="100%" height="100%" id="thirdBtn"></button>
+<button> <img src="" width="100%" height="100%" id="forthBtn"></button>
+
+          </section>
+
+          <section class="discription-of-product1" id="dis-cont">
+    
+
+ <p id="para"></p>
+
+          </section>
+
+
+        </div>
+      </div>
+    
+
+<br><br> <br><br>
+
+
+      <div class="special-info" id="office-fees">
+
+
+
+        <section class="office-section-pic" id="office-img">
+          <img src="aseets/h2-img-1.jpg" width="100%" height="100%">
+        </section>
+
+       <section class="treatment-price"> 
+
+  <p style="opacity: 0.6;">Nail hand. care</p>
+
+
+  <h1>Treatments & Prices</h1>
+  <p>Manicure <span style="opacity: 0.4;">_______________</span>
+    $ 20.00
+    $ 18.00 $</p>
+    <small style="opacity: 0.5;">The element of need is time</small>
+
+
+    <p>Hand/nail Moisturizer <span style="opacity: 0.4;">_______________</span>
+      $ 50.0</p>
+      <small style="opacity: 0.5;">Chocolate will not be followed
+
+      </small>
+
+      <p>Nail Clippers <span style="opacity: 0.4;">_______________</span>
+        $ 20.0</p>
+
+        <small style="opacity: 0.5;">Nisl takes up adipiscing to drink ultricies</small>
+        
+        <p>Manicure & Pedicure <span style="opacity: 0.4;">_______________</span>
+          $ 30.00</p>
+          <small style="opacity: 0.5;">Aenean and Tortor</small>
+
+
+       </section>
+      </div>
+
+
+      <div class="new-product-lounch">
+
+
+        <div class="lounch-product">
+
+          <img src="aseets/lonch product.webp" width="100%" height="100%">
+        </div>
+
+        <div class="timmer">
+
+          <h1> product <span> lonching </span> soon</h1>
+
+
+          <div class="time-date">
+            
+
+           <div>
+            <h1 id="day">00</h1>
+          <span>day</span>
+        </div>
+
+        
+        <div>
+          <h1 id="hour">00</h1>
+        <span>hour</span>
+      </div>
+
+
+      
+      <div>
+        <h1 id="minutes">00</h1>
+      <span>minutes</span>
+    </div>
+
+    
+    <div>
+      <h1 id="secound">00</h1>
+    <span>secound</span>
+  </div>
+
+
+          </div>
+        </div>
+
+      </div>
+<br><br>
+      <div class="product-information">
+<div>
+<img src="aseets/h2-icon-w-text-1-1.png">
+
+<h2>nail care</h2>
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+</div>
+<div>
+<img src="aseets/h2-icon-w-text-2-1.png">
+<h2>nail art</h2>
+<p>Lorem ipsum dolor sit.</p>
+</div>
+<div>
+<img src="aseets/h2-icon-w-text-3-1.png" alt="">
+<h2>tips & trends</h2> 
+<p>Lorem ipsum dolor sit amet.</p>
+
+</div>
+
+      </div>
+
+
+      <div class="banner-last container">
+       <img src="aseets/gift1.jpg">
+       <img src="aseets/gift2.jpg">
+      </div>
+
+
+
+      <div class="footer-cont">
+
+
+<section class="company-info">
+<h1>leone'</h1>
+<p>Léonie, a fabulous salon franchaies. <br>
+  <br>
+
+   Just as stunning as your nail art!</p>
+   <br>
+   <p>pw-dd</p>
+</section>
+<section class="company-info">
+
+  <h3>our location</h3>
+  <p>Location and Favourite Place</p>
+  <p>Our History</p>
+  <p>contact-US</p>
+  <p>FAQ + Policies</p>
+</section>
+<section class="company-info">
+  <h3>working hours</h3>
+  <p>Monday - Friday</p>
+  <p>09:00 - 22:00</p>
+  <p>Saturday - Sunday</p>
+  <p>11:00 - 00:00</p>
+</section>
+<section class="company-location">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29771.47906334492!2d79.08154249191284!3d21.135084785357165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c73ff9d97b8b%3A0x69e614af3f282b8c!2sCapello%20Salon%20Nandanvan!5e0!3m2!1sen!2sin!4v1730525478875!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+
+      </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
