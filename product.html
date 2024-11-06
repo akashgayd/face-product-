@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leone' face product</title>
+    <link rel="stylesheet" href="product.css">
+
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oleo+Script:wght@400;700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+
+  <!-- bootstrap nav bar -->
+   
+
+  <div class="bg-img">
+
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light  position-fixed w-100" style="z-index:1;">
+    <a class="navbar-brand img-logo" href="#">Leone'</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="product.html">product <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">feedback</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">franchaies</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+
+      
+    </div>
+  </nav>
+
+ 
+<br><br>
+  <div class="product-el" id="bg-main" style="z-index: 0;">
+    <button class="show_btn" onclick="onShowProduct()" id="remobtn"> show more product</button>
+
+     <div class="pr1" id="prOne">
+      <img src="aseets/face cream 2.jpg" width="70%" height="80%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+     </div>
+     <div class="pr1 pr2" id="prTwo">
+      <img src="aseets/face drop 3.avif" width="100%" height="80%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+     </div>
+     <div class="pr1" id="prTree">
+
+      <img src="aseets/polish3.webp" width="70%" height="80%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+     </div>
+     <div class="pr1" id="prFour">
+
+
+      <img src="aseets/product/product3.jpg" width="70%" height="100%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+     </div>
+     <div class="pr1 pr2" id="prFive">
+
+      <img src="aseets/face4.avif" width="100%" height="80%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+
+
+     </div>
+     <div class="pr1" id="prSix">
+
+      <img src="aseets/h2-polish-03-list-img (1).jpg" width="70%" height="100%">
+      <button class="btn btn-info" onclick="feedBackForm()">add to cart</button>
+     </div>
+
+  </div>
+  </div>
+
+  <div class="main_itm" id="main-product-visible">
+<div style="width: 100%;">
+    <h1>beauty product</h1>
+</div>
+
+
+    <section class="bauty-pro-1" id="bauty-product-One">
+      <img src="aseets/product/product1.jpg" width="100%" height="83%">
+
+      <button onclick="firstProduct()">buy now</button>
+      
+    </section>
+    <section class="bauty-pro-1" id="bauty-product-Two">
+      <img src="aseets/product/product2.jpg" width="100%" height="83%">
+      <button onclick="secoundProduct()">buy now</button>
+    </section>
+    <section class="bauty-pro-1" id="bauty-product-Tree">
+      <img src="aseets/product/product3.jpg" width="100%" height="83%">
+      <button onclick="thirdProduct()">buy now</button>
+    </section>
+    <section class="bauty-pro-1" id="bauty-product-Four">
+      <img src="aseets/product/product4.jpg" width="100%" height="83%">
+      <button onclick="forthProduct()">buy now</button>
+    </section>
+    <section class="bauty-pro-1" id="bauty-product-Five">
+
+      <img src="aseets/product/product5.jpg" width="100%" height="83%">
+      <button onclick="fiveProduct()">buy now</button>
+    </section>
+    <section class="bauty-pro-1" id="bauty-product-Six">
+
+      <img src="aseets/product/product7.jpg" width="100%" height="83%">
+      <button onclick="sixProduct()">buy now</button>
+    </section>
+  </div>
+
+
+  <div class="special-apr">
+
+<section>
+  <img src="aseets/product/email.jpg" alt="">
+</section>
+
+<section>
+
+  <h2>Contact our saloon</h2>
+  <p>*or give us a call to schedule a treatment 9022652375 </p>
+
+  <input type="email" placeholder=" email">
+  <button>send</button>
+</section>
+
+  </div>
+
+
+  
+      
+  <div class="footer-cont">
+
+
+    <section class="company-info">
+    <h1>leone'</h1>
+    <p>Léonie, a fabulous salon franchaies. <br>
+      <br>
+    
+       Just as stunning as your nail art!</p>
+       <br>
+       <p>pw-dd</p>
+    </section>
+    <section class="company-info">
+    
+      <h3>our location</h3>
+      <p>Location and Favourite Place</p>
+      <p>Our History</p>
+      <p>contact-US</p>
+      <p>FAQ + Policies</p>
+    </section>
+    <section class="company-info">
+      <h3>working hours</h3>
+      <p>Monday - Friday</p>
+      <p>09:00 - 22:00</p>
+      <p>Saturday - Sunday</p>
+      <p>11:00 - 00:00</p>
+    </section>
+    <section class="company-location">
+    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29771.47906334492!2d79.08154249191284!3d21.135084785357165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c73ff9d97b8b%3A0x69e614af3f282b8c!2sCapello%20Salon%20Nandanvan!5e0!3m2!1sen!2sin!4v1730525478875!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    
+    
+          </div>
+    
+    
+
+<script src="product.js"></script>
+</body>
+</html>
