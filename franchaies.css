@@ -1,0 +1,513 @@
+.main-frn{
+    width: 100%;
+}
+
+.franchaies2 h1{
+    font-size: 40px;
+}
+.franchaies2 p{
+    font-size: 20px;
+}
+.b1{
+    height: 40px;
+    width: 120px;
+    border: 1px solid lightcoral;
+    background-color: transparent;
+}
+.b2{
+    height: 45px;
+    width: 180px;
+    border: 1px solid lightskyblue;
+    background-color: transparent;
+}
+
+.input-fo1{
+
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid black; */
+    z-index: 1;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(186, 188, 143, 0.918);
+    box-shadow: 1px 1px 8px black;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.5s, top 0.5s;
+    visibility: hidden;
+
+}
+
+.my-hover{
+
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.input-fo1 input{
+
+    height: 10%;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    outline: none;
+
+}
+.main-btn-2{
+
+    width: 80%;
+    height: 8%;
+    border-radius: 10px;
+    background-color: rgb(160, 95, 143);
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+}
+
+
+
+.fo2{
+
+    height: 60%;
+    width: 100%;
+   padding: 10px;
+    display: flex; 
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: darkgray;
+z-index: 1;
+box-shadow: 1px 1px 8px black;
+position: absolute;
+top: 0%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0.1);
+transition:trasform 0.5s, top 0.5s;
+visibility: hidden;
+
+
+}
+
+
+.my-inque{
+
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+
+}
+.text1{
+
+    height: 40%;
+    width: 100%;
+    border: 1px solid lightpink;
+    padding: 10px;
+    outline: none;
+}
+.text1::placeholder{
+    text-transform: capitalize;
+    color: blueviolet;
+}
+.fo2 input{
+    width: 80%;
+    height: 12%;
+    border: 1px solid lightblue;
+    border-radius: 9px;
+    padding: 10px;
+    outline: none;
+}
+.send-btn{
+    height: 50px;
+    width: 140px;
+    background-color: rgb(181, 96, 198);
+  
+    margin: 7px;
+    border: none;
+    border-radius: 9px;
+    
+}
+.fo2 p{
+
+    color: red;
+    position: relative;
+    right: 20%;
+}
+
+
+.cross-btn{
+    
+
+    background-color: transparent;
+    border: none;
+    position: relative;
+    bottom: 93%;
+    left: 47%;
+    font-size: 20px;
+    font-weight: 800;
+    width: 21px;
+}
+.cross-myPrice{
+
+    
+   background-color: transparent;
+   border: none;
+   font-size: 20px;
+   font-weight: 800;
+   position: relative;
+   bottom: 93%;
+   left: 48%;
+}
+
+
+
+.franchaies-distribition{
+
+    height: 120%;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-fra{
+    width: 100%;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.franchaies-distribition section{
+
+    height: 90%;
+    width: 50%;
+    padding: 10px;
+    text-transform: capitalize;
+    border: 1px solid lightgrey;
+}
+
+
+
+
+.confirm-order{
+
+    height: 60%;
+    width: 100%;
+    padding: 25px;
+    /* border: 1px solid lightslategray; */
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.confirm-order section textarea{
+
+    height: 60%;
+    width: 100%;
+    border: 1px solid lightcoral;
+    padding: 10px;
+    border-radius: 8px;
+}
+.confirm-order p{
+    font-size: 20px;
+}
+.confirm-order input{
+    height: 40px;
+    width: 80%;
+    margin: 13px;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    outline: none;
+}
+
+.confirm-order button{
+    height: 50px;
+    width: 150px;
+  border: none;
+    background-color: rgb(106, 66, 122);
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 5px;
+}
+@media (min-width:1024px) {
+
+    .main-frn{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .franchaies1{
+        height: 60%;
+        width: 40%;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 10%;
+        padding: 10px
+    }
+    .franchaies2{
+        height: 80%;
+        width: 53%;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .franchaies2 h1{
+        font-size: 49px;
+        font-weight: 900;
+        color: rgba(38, 23, 4, 0.291);
+        position: relative;
+    }
+    .b1:hover{
+
+        background-color: rgb(223, 118, 6);
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        transition-duration: 0.7s;
+        outline: none;
+        border: none;
+        width: 160px;
+    }
+    .b2:hover{
+
+        background-color: rgb(20, 110, 220);
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        transition-duration: 0.7s;
+        outline: none;
+        border: none;
+        width: 220px;
+    }
+    .input-fo1{
+
+        height: 67%;
+        width: 40%;
+        padding: 10px;
+        /* border: 1px solid black; */
+        z-index: 1;
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgba(143, 188, 143, 0.817);
+        box-shadow: 1px 1px 8px black;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        transition: transform 0.5s, top 0.5s;
+        visibility: hidden;
+
+    }
+
+    .my-hover{
+
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        visibility: visible;
+
+
+    }
+    .input-fo1 h3{
+        font-size: 23px;
+
+
+    }
+    .input-fo1 input{
+
+        height: 12%;
+        width: 40%;
+        padding: 10px;
+        border: 1px solid lightblue;
+        border-radius: 8px;
+        outline: none;
+
+    }
+    .main-btn-2{
+
+        width: 80%;
+        height: 14%;
+        border-radius: 10px;
+        background-color: rgb(160, 95, 143);
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        text-transform: capitalize;
+        border: none;
+    }
+    .input-fo1 p{
+        color: red;
+    }
+
+
+    .fo2{
+
+        height: 63%;
+        width: 40%;
+       
+        display: flex; 
+        flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: darkgray;
+z-index: 1;
+box-shadow: 1px 1px 8px black;
+position: absolute;
+top: 0%;
+left: 60%;
+transform: translate(-50%, -50%) scale(0.1);
+transition:trasform 0.5s, top 0.5s;
+visibility: hidden;
+
+
+    }
+
+
+    .my-inque{
+
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        visibility: visible;
+
+    }
+    .text1{
+
+        height: 40%;
+        width: 80%;
+        border: 1px solid lightpink;
+        padding: 10px;
+        outline: none;
+    }
+    .text1::placeholder{
+        text-transform: capitalize;
+        color: blueviolet;
+    }
+    .fo2 input{
+        width: 80%;
+        height: 12%;
+        border: 1px solid lightblue;
+        border-radius: 9px;
+        padding: 10px;
+        outline: none;
+    }
+.send-btn{
+        height: 60px;
+        width: 140px;
+        background-color: rgb(158, 36, 180);
+      
+        margin: 7px;
+        border: none;
+        border-radius: 9px;
+        
+    }
+    .fo2 p{
+
+        color: red;
+        position: relative;
+        right: 20%;
+    }
+
+    .cross-btn{
+    
+
+        background-color: transparent;
+        border: none;
+        position: relative;
+        bottom: 93%;
+        left: 47%;
+        font-size: 20px;
+        font-weight: 800;
+        width: 21px;
+    }
+    .franchaies-distribition{
+
+        height: 80%;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0px 0px 5px black;
+        background-color: aliceblue;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .head-fra{
+        width: 100%;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .franchaies-distribition section{
+
+        height: 90%;
+        width: 50%;
+        padding: 10px;
+        text-transform: capitalize;
+        border: 1px solid lightgrey;
+    }
+
+
+    .confirm-order{
+
+        height: 60%;
+        width: 100%;
+        padding: 25px;
+        /* border: 1px solid lightslategray; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+    .confirm-order section textarea{
+
+        height: 60%;
+        width: 70%;
+        border: 1px solid lightcoral;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .confirm-order p{
+        font-size: 20px;
+    }
+    .confirm-order input{
+        height: 40px;
+        width: 30%;
+        margin: 13px;
+        padding: 10px;
+        border: 1px solid lightgreen;
+        outline: none;
+    }
+
+    .confirm-order button{
+        height: 50px;
+        width: 150px;
+      border: none;
+        background-color: rgb(106, 66, 122);
+        color: white;
+        font-weight: 700;
+        text-transform: capitalize;
+        box-shadow: 0px 0px 7px black;
+        border-radius: 5px;
+    }
+}
